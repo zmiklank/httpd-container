@@ -16,7 +16,7 @@ function _container_is_scl() {
 function update_overall() {
     res="$1"
     if [ "$res" != 0 ]; then
-        TESTSUITE_RESULT="$res"
+        TESTCASE_RESULT="$res"
     fi
 }
 
